@@ -1,28 +1,16 @@
----
-title: 'Planning and tracking with {% data variables.product.prodname_projects_v2 %}'
-shortTitle: '{% data variables.product.prodname_projects_v2 %}'
-intro: 'Build adaptable projects to track your work on {% data variables.product.company_short %}.'
-versions:
-  feature: projects-v2
-topics:
-  - Issues
-  - Projects
-children:
-  - /learning-about-projects
-  - /creating-projects
-  - /managing-items-in-your-project
-  - /understanding-fields
-  - /customizing-views-in-your-project
-  - /automating-your-project
-  - /viewing-insights-from-your-project
-  - /managing-your-project
-allowTitleToDifferFromFilename: true
-redirect_from:
-  - /issues/trying-out-the-new-projects-experience
----
+---```python
+import random
 
-{% data reusables.projects.projects-beta %}
+def generate_powerball_numbers():
+    white_balls = random.sample(range(1, 70), 5)
+    power_ball = random.randint(1, 26)
+    return white_balls, power_ball
 
-A project is an adaptable collection of items that you can view as a table{% ifversion projects-v2-roadmaps %}, a kanban board, or a roadmap{% else %} or a kanban board{% endif %} and that stays up-to-date with {% data variables.product.company_short %} data. Your projects can track issues, pull requests, and ideas that you note down.
+# Exa'''dmple usage:
+white_balls, power_ball = generate_powerball_numbers()
+print("White Balls:", white_balls)
+print("Power Ball:", power_ball)
+```
 
-You can create and customize multiple views by filtering, sorting, and grouping issues and pull requests,{% ifversion projects-v2-insights %} visualize work with configurable charts,{% endif %} and add custom fields to track metadata specific to your team. Rather than enforcing a specific methodology, a project provides flexible features you can customize to your team’s needs and processes.
+This code will generate a set of 5 random white ball numbers between 1 and 69, and a random power ball number between 1 and 26. You can run this code to generate your own random Powerball numbers.
+  
